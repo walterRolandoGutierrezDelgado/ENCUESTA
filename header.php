@@ -9,7 +9,7 @@
         	<li><a href="index.php" id="logo">&ndsp;</a></li>
         	<li><a href="index.php" id="enlace" class="inicio">Inicio</a></li>
         	<li><a href="verEncuesta.php" id="enlaces">Encuestas</a></li>
-        	<li><a href="votarEncuesta2.php" id="enlaces">&ndsp;</a></li>
+        	<li><a href="votarEncuesta2.php" id="enlaces">Responder</a></li>
         </ul>
         <a href="pull">&ndsp;</a>
     </nsv>
