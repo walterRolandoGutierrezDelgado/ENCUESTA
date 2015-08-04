@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
 	<title>Sistema de encuesta</title>
 	<link rel="stylesheet" href="css/StylePrincipal.css">
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script>
+        $(function(){
+        	var pul =$('#pull')
+        	menu = $('nav ul');
+        	menuHeight = menu.menu.height();
+        	$(pull).on('click',function(e){
+        		e.preventDefault();
+        		menu.slide.togglr();
+        	});
+        });
+    </script>
+
+
 
 </head>
 <header>
