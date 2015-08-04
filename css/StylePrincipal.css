@@ -42,4 +42,29 @@ nav a{
 	-webkit-transition:all 1s ease-out;
 	transition:all 1s ease-out;
 }
-#
+#enlaces{
+	ms-transition:all 1s ease-in;
+	-moz-transition:all 1s ease-in;
+	-o- -transition:all 1s ease-in;
+	-webkit-transition:all 1s ease-in;
+	transition:all 1s ease-in;ç
+}
+
+a:hover{
+	color: #FFF;
+}
+
+a#pull{
+	display: none;
+}
+
+#pull{
+	color: rgb(216,216,216);
+}
+#pull:hover{
+	color: #FFF;
+}
+
+
+
+
