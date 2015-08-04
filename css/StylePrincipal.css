@@ -65,6 +65,56 @@ a#pull{
 	color: #FFF;
 }
 
+@media(min-width: 1080px){
+	nav a{
+		width: 95px;
+	}
+	#menu{
+		background: none repeat scroll 0 0 #f3f3f3;
+		height: 60px;
+	}
+	#enlaces{
+		padding: 10px;
+	}
+	#logo{
+		margin: 5px;
+		background: url(../images/encuesta1.png) no-repeat;
+		width: 200px;
+		height: 100px;
+		display: inline-block;
+		position: absolute;
+		left: 30px;
+		top: 0px;
+	}
 
+}
+@media(max-width: 1024px){
 
+}
+@media(max-width: 800px){
 
+}
+@media(max-width: 768px){
+
+}
+@media(max-width: 685px){
+
+}
+@media(max-width: 600px){
+
+}
+@media(max-width: 568px){
+
+}
+@media(max-width: 480px){
+
+}
+@media(max-width: 380px){
+
+}
+@media(max-width: 320px){
+
+}
+@media(max-width: 240px){
+
+}
