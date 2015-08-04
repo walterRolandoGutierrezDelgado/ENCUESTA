@@ -9,11 +9,11 @@
 <header>
 	 <nav id="menu">
         <ul>
-        	<li><a href="index.php" id="logo">&ndsp;</a></li>
+        	<li><a href="index.php" id="logo">&nbsp;</a></li>
         	<li><a href="index.php" id="enlaces" class="inicio">Inicio</a></li>
         	<li><a href="verEncuesta.php" id="enlaces">Encuestas</a></li>
         	<li><a href="votarEncuesta2.php" id="enlaces">Responder</a></li>
         </ul>
-        <a href="pull">&ndsp;</a>
+        <a href="pull">&nbsp;</a>
     </nav>
 </header>
