@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
 	<title>Sistema de encuesta</title>
+	<link rel="stylesheet" href="css/StylePrincipal.css">
 </head>
     <nsv id="menu">
         <ul>
