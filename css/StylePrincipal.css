@@ -1,0 +1,35 @@
+*{
+     margin:0;
+     padding:0;
+}
+boby{
+	color:#000;
+	font-family:"arial Black", sans-serif;
+
+}
+header{
+	background: none repeat scroll 0 0 #F3F3F3;
+	margin:3px auto;
+	max-width:100%;
+	padding:5px 0px;
+	text-align:center;
+}
+
+
+nav ul{
+	padding: 0;
+    margin: 0 auto;
+    width: 600px;
+    height: 40px;
+}
+nav li {
+	display: inline;
+}
+nav a{
+	color:rgb(0,162,232);
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+}
