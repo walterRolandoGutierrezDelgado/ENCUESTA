@@ -2,7 +2,7 @@
     <div id="da-slider" class="da-slider">
         <div class="da-slide">
            <h2>Java</h2>
-           <p>programacion en java</p>
+           <p>videotutoriales programacion en java</p>
            <div class="da-img"><img arc="images/2.png" alt="image01"></div>
         </div>
 
