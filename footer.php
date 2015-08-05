@@ -8,7 +8,7 @@
 			<div class="service-block">
 				<a href="#">
 				<div class="service-image b-blue">
-					<li><img id="img" src="images/css.png" alt=""></li>
+					<i><img id="img" src="images/css.png" alt=""></i>
 				</div>
 				</a>
 				<p>Prpgramacion en CSS</p>
@@ -19,7 +19,7 @@
 			<div class="service-block">
 				<a href="#">
 				<div class="service-image b-orange">
-					<li><img id="img" src="images/html.png" alt=""></li>
+					<i><img id="img" src="images/html.png" alt=""></i>
 				</div>
 				</a>
 				<p>Prpgramacion en HTML5</p>
@@ -30,7 +30,7 @@
 			<div class="service-block">
 				<a href="#">
 				<div class="service-image b-blue">
-					<li><img id="img" src="images/php.png" alt=""></li>
+					<i><img id="img" src="images/php.png" alt=""></i>
 				</div>
 				</a>
 				<p>Prpgramacion en PHP</p>
@@ -41,7 +41,7 @@
 			<div class="service-block">
 				<a href="#">
 				<div class="service-image b-orange">
-					<li><img id="img" src="images/mysql1.png" alt=""></li>
+					<i><img id="img" src="images/mysql1.png" alt=""></i>
 				</div>
 				</a>
 				<p>Prpgramacion en MYSQL</p>
@@ -53,7 +53,7 @@
 			<div class="service-block">
 				<a href="#">
 				<div class="service-image b-red">
-					<li><img id="img" src="images/basic.jpg" alt=""></li>
+					<i><img id="img" src="images/basic.jpg" alt=""></i>
 				</div>
 				</a>
 				<p>Prpgramacion en Basic</p>
