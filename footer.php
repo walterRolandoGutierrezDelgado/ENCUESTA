@@ -52,7 +52,7 @@
 		<div class="span3">
 			<div class="service-block">
 				<a href="#">
-				<div class="service-image b-purple">
+				<div class="service-image b-red">
 					<i><img id="img" src="images/basic.jpg" alt=""></i>
 				</div>
 				</a>
