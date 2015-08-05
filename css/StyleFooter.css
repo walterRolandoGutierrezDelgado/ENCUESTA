@@ -58,5 +58,36 @@ h3{
 	-webkit-transition:all 2s;
 }
 .service-image:hover{
-	
+	padding: 3px;
+	margin: -3px auto;
+	transition:all 2s;
+	-moz-transition:all 2s;
+	-ms-transition:all 2s;
+	-o-transition:all 2s;
+	-webkit-transition:all 2s;
+}
+.service-image a, .service-image a:hover{
+	color: #888;
+	text-decoration: none;
+}
+.service-block a, .service-block a:hover{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.service-block{
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 23px;
+}
+.service-block{
+	font-size: 15px;
+	padding: 12px;
+	color: #888;
+	font-style: italic;
+}
+.span3{
+	margin: 20px 0px 0px;
+	display: inline-block;
 }
