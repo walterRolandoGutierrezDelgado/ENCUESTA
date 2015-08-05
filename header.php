@@ -8,11 +8,13 @@
 
     <link rel="stylesheet" type="text/css" href ="css/styleSlider.css"/> 
 
+    <link rel="stylesheet" type="text/css" href ="css/styleFooter.css"/> 
+
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
+    
     <script>
-
         $(function(){
         	var pul =$('#pull')
         	menu = $('nav ul');
