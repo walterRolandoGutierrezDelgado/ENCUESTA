@@ -12,7 +12,7 @@
         	menuHeight = menu.menu.height();
         	$(pull).on('click',function(e){
         		e.preventDefault();
-        		menu.slide.togglr();
+        		menu.slideTogglr();
         	});
         });
     </script>
