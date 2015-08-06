@@ -1,1 +1,3 @@
-Encuestas 
+<?PHP
+ include("header.php");
+?>
