@@ -94,3 +94,19 @@ td{
 	-o-transition:all 2s;
 	-webkit-transition:all 2s;
 }
+input.submit,#paginas2{
+	background: -moz-linear-gradient(#fc0 0%,#F60 100%);
+	background: -ms-linear-gradient(#fc0 0%,#F60 100%);
+	background: -o-linear-gradient(#fc0 0%,#F60 100%);
+	background: -webkit-linear-gradient(#fc0 0%,#F60 100%);
+	background: linear-gradient(#fc0 0%,#F60 100%);
+	border: solid 1px #DEDEDE;
+	border-radius: 5px;
+	text-align: center;
+	padding: 4px;
+	color: #fff;
+	  width: 70px;
+	  text-decoration: none;
+	  transition:all 2s;
+	  
+}
