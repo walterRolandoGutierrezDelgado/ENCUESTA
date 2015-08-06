@@ -10,7 +10,7 @@ include("php/session.php");
 				<h2>Craer encuesta</h2>
 			</li>
 			<li>
-				<label for="titulo"></label>
+				<label for="titulo">Encuesta:</label>
 			</li>
 		</ul>>
 	</form>
