@@ -38,20 +38,20 @@
         	<li><a href="votarEncuesta2.php" id="enlaces">Responder</a></li>
             <li>
             	<?php
-            	  error_reporting(E_ALL ^ E_NOTICE);
+                  error_reporting(E_ALL ^ E_NOTICE);
             	  session_start();
             	  if ($_SESSION["autentificado"]) {
-            	  	echo "<a href= 'crearEncuesta.php' id='enlaces'>Crear</a>"
-            	  	 	 ?>
-                   </li>
-                   <?php
-                   echo "<li><a id='enlaces' href='php/salir.php' >Salir</a></li>";
-            	  }else{
-            	  	echo "<li><a id='enlaces' href='login.php' >Login</a></li>";
-
-            	  }
-           ?>
+                      echo "<a href='crearEncuesta.php' id='enlaces'>Crear</a>";
+                    ?>
+                  </li>
+                  <?php
+                  echo "<li><a id='enlaces' href='php/salir.php'>Salir</a></li>";
+                  } else {
+                    echo "<li><a id='enlaces' href='login.php'>Login</a></li>";
+                  }
+                  
+             ?>
         </ul>
-        <a href="pull">&nbsp;</a>
+        <a href="" id="pull">&nbsp;</a>
     </nav>
 </header>

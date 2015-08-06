@@ -7,7 +7,7 @@ include("header.php");
             <li>
             	<h2>Iniciar sesion</h2>
             </li>
-            <h5>Emial</h5>
+            <h5>Email</h5>
             <li>
             	<input type="email" name="email" placeholder="Email"required/>
             </li>
@@ -17,9 +17,9 @@ include("header.php");
             </li>
             <?php
               if (isset($_POST["email"])){
-              	echo "Email incorrecto"
+              	echo "Email incorrecto";
               } else{
-                  if (isset($_POST["password"])){
+                  if (isset($_POST["Password"])){
               	   echo "Contraseña incorrecto";
               	   }
               }
@@ -27,7 +27,7 @@ include("header.php");
             <li>
             	<input type="submit" class="submit" value="Iniciar">
             </li>
-            <a href="paginas1" href="javascript:window.history.back();">&laquo; Volver atras</a>
+            <a id="paginas1" href="javascript:window.history.back();">&laquo; Volver atras</a>
          </ul>
     	
     </form>
