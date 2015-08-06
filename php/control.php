@@ -27,8 +27,7 @@ $consulta=mysql_query("SELECT * FROM login");
      	 </form>
 
             <?php
-           
-        	
+            
         	// declaro mis variables de session
             $_SESSION["autentificado"] = true;
             $_SESSION["usuario"] = $_POST['email'];
