@@ -66,3 +66,18 @@ td{
 	box-shadow: 0 0 5px #aaa;
 	padding-right: 80px
 }
+#paginas1{
+	cursor: pointer;
+	background: -webkit-linear-gradient(#fff 0%,#DEDEDE 100%);
+	background: -moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+	background: -ms-linear-gradient(#fff 0%,#DEDEDE 100%);
+	background: -o-linear-gradient(#fff 0%,#DEDEDE 100%);
+	color: #999;
+	border: solid 1px #DEDEDE;
+	border-radius: 5px;
+	font-size: 13px;
+	text-align: center;
+	padding:4px;
+	width: 70px;
+	text-decoration: none;
+}
