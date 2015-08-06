@@ -14,27 +14,27 @@ $consulta=mysql_query("SELECT * FROM login");
        $email=$_POST['email'];
        echo $email;
        ?>
-       <!--  <form name="formulario" method="post" action="../login.php">
+        <form name="formulario" method="post" action="../login.php">
          	<input type="hidden" name="email" value="<?php echo $email; ?>">
-         </form>-->
+         </form>
          <?php
 
-      }else{
+        }else{
        	 if ($pasword=$_POST['password']!==$pass)
      	 	?>
-     	<!-- <form name="formulario" method="post" action="../login.php">
+     	<form name="formulario" method="post" action="../login.php">
      	    <input type="hidden" name="password" value="<?php echo $password;?>">
-     	 </form>-->
+     	 </form>
 
             <?php
-            }else{
-        	session_start();
+           
+        	
         	// declaro mis variables de session
             $_SESSION["autentificado"] = true;
             $_SESSION["usuario"] = $_POST['email'];
             header("location: ../crearEncuesta.php?entrar=si");
-            }
-      
+            
+     }
   ?>
   
   <script type="text/javascript">
