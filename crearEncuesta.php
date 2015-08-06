@@ -16,9 +16,15 @@ include("php/session.php");
 			</li>
 			<li>
 				<label for="preguntas">N&uacute;mero de preguntas:</label>
-				<input type="number" name="preguntas" placeholder="Encuesta"
-				required/>
+				<input type="number" name="preguntas" placeholder="Preguntas" min="0" 
+				max="5" required/>
+			</li>
+			<li>
+			  <input type="submit" class="submit" value="crear"/>
 			</li>
 		</ul>>
 	</form>
 </section>>
+<?php
+  include("footer.php");
+?>
