@@ -10,8 +10,6 @@
 
     <link rel="stylesheet" type="text/css" href ="css/styleFooter.css"/> 
     <link rel="stylesheet" type="text/css" href ="css/styleForm.css"/> 
-
-
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
@@ -42,7 +40,7 @@
             	<?php
                   error_reporting(E_ALL ^ E_NOTICE);
             	  session_start();
-            	  if ($_SESSION["autentificado"]) {
+            	  if($_SESSION["autentificado"]){
                       echo "<a href='crearEncuesta.php' id='enlaces'>Crear</a>";
                     ?>
                   </li>
