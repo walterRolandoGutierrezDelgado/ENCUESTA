@@ -39,10 +39,10 @@
             <li>
             	<?php
                   error_reporting(E_ALL ^ E_NOTICE);
-            	  session_start();
+                  
             	  if($_SESSION["autentificado"]){
                       echo "<a href='crearEncuesta.php' id='enlaces'>Crear</a>";
-                    ?>
+                         ?>                 
                   </li>
                   <?php
                   echo "<li><a id='enlaces' href='php/salir.php'>Salir</a></li>";
@@ -50,7 +50,8 @@
                     echo "<li><a id='enlaces' href='login.php'>Login</a></li>";
                   }
                   
-             ?>
+                ?>
+            
         </ul>
         <a href="" id="pull">&nbsp;</a>
     </nav>
