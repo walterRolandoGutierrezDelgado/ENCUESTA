@@ -19,19 +19,19 @@ $consulta=mysql_query("SELECT * FROM login");
          <?php
 
      }else {
-     	 if ($password=$_POST['password']!==$pass)
+     	 if ($pasword=$_POST['password']!==$pass)
      	 	?>
      	 <form name="formulario" method="post" action="../login.php">
      	    <input type="hidden" name="password" value="<?php echo $password;?>">
-     	 </forn>
+     	 </form>
 
             <?php
-        }else{
+          }else{
         	session_start();
-          $_SESSION["AUTENTIFICADO"]=true;
-          $_SESSION["usuario"]=$_POST['email'];
+          $_SESSION["autentificado"] = true;
+          $_SESSION["usuario"] = $_POST['email'];
           header("location: ../crearEncuesta.php?entrar=si");
-        }
+            }
      } 
   ?>
   
