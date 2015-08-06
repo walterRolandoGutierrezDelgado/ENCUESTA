@@ -108,5 +108,22 @@ input.submit,#paginas2{
 	  width: 70px;
 	  text-decoration: none;
 	  transition:all 2s;
-	  
+	  -moz-transition:all 2s;
+	  -ms-transition:all 2s;
+	  -o-transition:all 2s;
+	  -webkit-transition:all 2s;
+}
+input.submit:hover{
+	cursor: pointer;
+	background: -webkit-linear-gradient(#fff 0%, #DEDEDE 100%);
+	background: -moz-linear-gradient(#fff 0%, #DEDEDE 100%);
+	background: -ms-linear-gradient(#fff 0%, #DEDEDE 100%);
+	background: -o-linear-gradient(#fff 0%, #DEDEDE 100%);
+
+	color: #999;
+	transition:all 2s;
+	-moz-transition:all 2s;
+	-ms-transition:all 2s;
+	-o-transition:all 2s;
+	-webkit-transition:all 2s;
 }
