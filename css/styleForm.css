@@ -44,3 +44,10 @@ td{
 .contact_form button{
 	margin-left: 90px;
 }
+.contact_from input[type="password"],input[type="email"],input[type="test"], input[type="number"]{
+	height: 20px;
+	width: 220px;
+	padding: 5px;
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 
+}
