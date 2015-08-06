@@ -9,7 +9,17 @@ $consulta=mysql_query("SELECT * FROM login");
       $pass=$filas['pass'];
 
 
-   if ($email_POST['email']!==$usuario){
+   if ($email=$_POST['email']!==$usuario){
 
+       $email=$_POST['email'];
+       ?>
+         <form name="formulario" method="post" action="../login.php">
+         	<input type="hidden" name="email" value="<?php echo $email; ?>">
+         </form>
+         <?php
 
-   } 
+     }else {
+     	 if ($password=$_POST['password']!==$usuario)
+     	 	?>
+     	 <form name="formulario" method="post">
+     } 
