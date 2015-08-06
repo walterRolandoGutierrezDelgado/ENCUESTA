@@ -1,0 +1,15 @@
+section#form{
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	margin: 20px auto;
+	max-width: 90%;
+	padding: 10px;
+	text-align: center;;
+}
+td{
+	color: #999;
+	padding: 3px;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+.
