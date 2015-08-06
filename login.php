@@ -1,6 +1,7 @@
 <?php
 include("header.php");
-
+isset($_POST["email"]);
+     $email = $_POST["email"];
 ?>
 <section id="form">
     <form class="contact_form" action="php/control.php" method="post">
@@ -10,7 +11,7 @@ include("header.php");
             </li>
             <h5>Email</h5>
             <li>
-            	<input type="email" name="email" placeholder="Email"required/>
+            	<input type="email" name="email" placeholder="Email"required value="<?php echo $email; ?>"/>
             </li>
             <h5>Contraseña</h5>
             <li>
