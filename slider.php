@@ -17,7 +17,7 @@
            <p>programacion en html5</p>
            <div class="da-img"><img arc="images/1.png" alt="image01"></div>
         </div>
-         <div class="da-slide">
+          <div class="da-slide">
            <h2>MYSQL</h2>
            <p>programacion en mysql</p>
            <div class="da-img"><img arc="images/4.png" alt="image01"></div>
