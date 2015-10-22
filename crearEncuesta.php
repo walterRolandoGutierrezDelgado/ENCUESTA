@@ -36,6 +36,17 @@ include("php/session.php");
 			  <input type="submit" class="submit" value="crear"/>
 			</li>
 		</ul>>
+		 <script>
+        $(function(){
+        	var pul =$('#pull')
+        	menu = $('nav ul');
+        	menuHeight = menu.menu.height();
+        	$(pull).on('click',function(e){
+        		e.preventDefault();
+        		menu.slideTogglr();
+        	});
+        });
+    </script>
 	</form>
 </section>>
 <?php
