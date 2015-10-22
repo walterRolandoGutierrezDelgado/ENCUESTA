@@ -14,16 +14,7 @@ include("php/session.php");
 				<input type="text" name="litulo" placeholder="Encuesta"
 				required/>
 			</li>
-			<div class="span3">
-			<div class="service-block">
-				<a href="#">
-				<div class="service-image b-blue">
-					<i><img id="img" src="images/css.png" alt=""></i>
-				</div>
-				</a>
-				<p>Prpgramacion en CSS</p>
-			</div>
-		</div>
+			
 			<li>
 				<label for="preguntas">N&uacute;mero de preguntas:</label>
 				<input type="number" name="preguntas" placeholder="Preguntas" min="0" 
